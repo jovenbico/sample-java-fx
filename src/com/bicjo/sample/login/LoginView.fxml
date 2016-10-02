@@ -7,7 +7,7 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.Button?>
 
-<FlowPane xmlns:fx="http://javafx.com/fxml/1" orientation="VERTICAL"
+<FlowPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bicjo.sample.login.LoginController" orientation="VERTICAL"
 	alignment="CENTER" vgap="8" hgap="4">
 
 	<HBox>
@@ -21,7 +21,7 @@
 	</HBox>
 
 	<HBox nodeOrientation="RIGHT_TO_LEFT">
-		<Button id="loginBtn" text="Login" />
+		<Button fx:id="loginBtn" text="Login" />
 	</HBox>	
 </FlowPane>
 
